@@ -34,7 +34,7 @@ function criarCobrinha() {
 
 function desenhaComida() {
   for (i = 0; i < snake.length; i++) {
-    context.fillStyle = "red"
+    context.fillStyle = "#D3320F"
     context.fillRect(food.x, food.y, box, box)
   }
 }
